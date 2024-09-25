@@ -1,11 +1,9 @@
 <script setup>
-
-
-import TodoList from './components/TodoList.vue'
+import SignUp from './components/SignUp.vue'
 </script>
 
 <template>
-  <TodoList></TodoList>
+  <SignUp></SignUp>
 </template>
 
 <style scoped>

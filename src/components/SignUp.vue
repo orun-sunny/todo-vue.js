@@ -4,7 +4,7 @@
   </div>
 
   <div class="register">
-    <input type="text" v-model="name" placeholder="Enter Name" />
+    <input type="text " v-model="name" placeholder="Enter Name" />
     <input type="text" v-model="email" placeholder="Enter Email" />
     <input type="password" v-model="password" placeholder="Enter Password" />
     <button v-on:click="signUp">Sign Up</button>
@@ -44,7 +44,7 @@ export default {
 .register {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Adds space between inputs */
+  gap: 12px; /* Adds space between inputs */
   align-items: center;
 }
 

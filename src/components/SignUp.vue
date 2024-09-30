@@ -32,9 +32,10 @@ export default {
       })
       console.warn(result)
       if (result.status == 201) {
-        alert('Sign up Done')
+        // alert('Sign up Done')
       }
       localStorage.setItem('user-info', JSON.stringify(result.data))
+      this.$router.push({ name: 'Home' })
     }
   }
 }

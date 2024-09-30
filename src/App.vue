@@ -1,11 +1,11 @@
-<script setup>
-import SignUp from './components/SignUp.vue'
-</script>
-
 <template>
-  <SignUp></SignUp>
+  <router-view />
 </template>
-
+<script>
+export default {
+  name: 'App'
+}
+</script>
 <style scoped>
 header {
   line-height: 1.5;
